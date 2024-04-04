@@ -1,7 +1,6 @@
 import React from "react";
-import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View, Pressable } from "react-native";
-import { Logo } from "../ComponentsImports";
+import { Logo, ExternalLink } from "../ComponentsImports";
 
 export default function AboutScreen({ navigation }) {
 	return (
@@ -19,6 +18,9 @@ export default function AboutScreen({ navigation }) {
 				Breno Santos – 10008876 {"\n"}
 				Arthur Santos - 01570824
 			</Text>
+			<ExternalLink url="https://github.com/CarlaMSLopes/EcoPontos">
+				GitHub
+			</ExternalLink>
 			<Pressable
 				style={styles.button}
 				onPress={() => navigation.navigate("Welcome")}
