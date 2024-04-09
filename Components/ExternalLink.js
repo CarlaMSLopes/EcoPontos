@@ -11,15 +11,9 @@ const ExternalLink = (props) => {
 
 	return (
 		<TouchableOpacity onPress={onPress}>
-			<Text style={[styles.text, style]}>{children}</Text>
+			<Text style={[style]}>{children}</Text>
 		</TouchableOpacity>
 	);
 };
 
-const styles = StyleSheet.create({
-	text: {
-		fontSize: 16,
-		textDecoration: "underline",
-	},
-});
 export default ExternalLink;

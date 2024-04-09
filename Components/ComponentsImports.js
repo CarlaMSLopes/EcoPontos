@@ -1,20 +1,18 @@
-import TxtInput from "./TextInput.js";
-import Checkbox from "./Checkbox.js";
+import CheckboxComponent from "./CheckboxComponent.js";
 import Btn from "./Button.js";
 import ButtonGoogle from "./ButtonGoogle.js";
-import InputPassword from "./PasswordInput.js";
-import Titulo from "./Titulo.js";
-import ExternalLink from "./ExternalLink.js"
+import TxtInputWithLabel from "../Components/TxtInputWithLabel.js";
+import ForgotPasswordButton from "../Components/ForgotPasswordButton.js";
+import ExternalLink from "./ExternalLink.js";
 import Logo from "./Logo.js";
 import ParagrafoH1 from "./ParagrafoH1.js";
 
 export {
-	TxtInput,
-	Checkbox,
+	TxtInputWithLabel,
+	ForgotPasswordButton,
+	CheckboxComponent,
 	Btn,
 	ButtonGoogle,
-	InputPassword,
-	Titulo,
 	Logo,
 	ParagrafoH1,
 	ExternalLink,
